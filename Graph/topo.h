@@ -2,7 +2,7 @@
 * Description: Topological sorting. Given is an oriented graph.
  * Output is an ordering of vertices, such that there are edges only from left to right.
  * If there are cycles, the returned list will have size smaller than $n$ -- nodes reachable
- * from cycles will not be returned.
+ * from cycles will not be returned. (0 base)
  * Time: $O(|V|+|E|)$
  */
 vi topoSort(const vector<vi>& gr) {
