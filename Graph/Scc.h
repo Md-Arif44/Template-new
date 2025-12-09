@@ -15,7 +15,7 @@ pair<vi,vi> Fun (const V<vi> &g ,const vi &order  ){
             }
         topo.pb(v);
      };
-     rep(i ,sz(order) ) {
+     rep(i ,0,sz(order) ) {
            if(vis[order[i]] ==0 ){
                 attempt++ ;
               dfs(dfs, order[i] ) ;
