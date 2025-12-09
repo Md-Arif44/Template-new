@@ -3,8 +3,6 @@
  * except z[0] = 0. (abacaba -> 0010301)
  * Time: O(n)
  */
-#pragma once
-
 vi Z(const string& S) {
 	vi z(sz(S));
 	int l = -1, r = -1;
