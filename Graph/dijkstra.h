@@ -18,5 +18,5 @@ vl dijkstra(const V<V<pll>> &g, int s) {
 
   }
   return dist;
-  // returns inf if there' no path
+  // returns inf if there's no path
 }
