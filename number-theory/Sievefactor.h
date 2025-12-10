@@ -1,3 +1,7 @@
+/**
+ * Time: $O(n)$
+ * Status:  stress-tested
+ */
 int pclc=0;
 vi least ,primes;
 void RunSieve(int n) {
