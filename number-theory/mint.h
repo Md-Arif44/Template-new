@@ -1,5 +1,6 @@
 /**
 * Description: Operators for modular arithmetic. You need to set {\tt mod} to
+* Status: Works
 */
 
 const int mod=1e9+7;
