@@ -9,15 +9,3 @@ run() {
 
 source ~/.bashrc
 
-/-------
-// for mac  same 
-run() {
-    code="$1"
-    clang++ "${code}.cpp" -o "$code" -std=c++20 -g -DDeBuG \
-        -Wall -Wshadow -fsanitize=address,undefined \
-        && "./$code"
-}
-
-source ~/.zshrc
-
- 
