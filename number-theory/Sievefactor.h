@@ -6,7 +6,7 @@ void RunSieve(int n) {
   for (int i = 2; i <= n; i++) {
     if (least[i] == 0) {
         least[i] = i;
-       primes.pb(i);
+        primes.pb(i);
     }
     for (int x : primes) {
       if (x > least[i] || i * x > n) {
