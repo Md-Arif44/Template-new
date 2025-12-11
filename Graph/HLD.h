@@ -7,10 +7,10 @@
  * Takes as input the full adjacency list. VALS\_EDGES being true means that
  * values are stored in the edges, as opposed to the nodes. All values
  * initialized to the segtree default. Root must be 0.
- * Time: O((\log N)^2)
  * build  ord[ Id(i) ] =  a[i] for  segtree 
  * querySubtree(u)  return [l,r)    
  * Path( u,v)  return vec of [l,r)  
+ * Time: O((\log N)^2)
  */
  
 template <bool VALS_EDGES = false >
