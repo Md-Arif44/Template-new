@@ -2,7 +2,6 @@
 * Description: Operators for modular arithmetic. You need to set {\tt mod} to
 * Status: Works
 */
-
 const int mod=1e9+7;
  struct mint{
   ll x;
@@ -13,8 +12,8 @@ const int mod=1e9+7;
     return r;
   }
   mint inv(){return power(mod - 2);}
-  mint operator+(mint b) { return mint((x + b.x) % mod); }
-  mint operator-(mint b) { return mint((x - b.x + mod) % mod); }
-  mint operator*(mint b) { return mint((x * b.x) % mod); }
+  mint operator+(mint b) { return mint(x + b.x); }
+  mint operator-(mint b) { return mint(x - b.x); }
+  mint operator*(mint b) { return mint(x * b.x); }
   mint operator/(mint b) { return *this * b.power(mod - 2); }
  };
