@@ -10,7 +10,6 @@ using namespace std;
 #define pb push_back 
 #define fora(cn) for(auto &x : (cn))
 #define rep(i,a,b) for(int i=(a);i<(b);++i)
-#define Rep(i,b) for(int i= 0 ;i<(b);++i)
 template<class T>using V=vector<T>; 
 using ll=long long; using pll = pair<ll,ll>;
 using pii=pair<int,int>;using vi=vector<int> ;
