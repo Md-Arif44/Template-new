@@ -3,8 +3,6 @@
  * Time: O(N)
  * Usage:  rotate(v.begin(), v.begin()+minRotation(v), v.end());
  */
-#pragma once
-
 int minRotation(string s) {
 	int a=0, N=sz(s); s += s;
 	rep(b,0,N) rep(k,0,N) {
