@@ -1,10 +1,10 @@
-template <class T=ll>
+template <class T=int >
 struct FT2D {
-  vector<vector<T>> x;
-  FT2D(int n, int m) : x(n, vector<T>(m)) { }
+  V<V<T>> x;
+  FT2D(int n, int m) : x(n, V<T>(m)) { }
   void add(int k1, int k2, int a) { // x[k1][k2] += a
-    for (; k1 < x.size(); k1 |= k1+1) 
-      for (int k=k2; k < x[k1].size(); k |= k+1) x[k1][k] += a;
+    for (; k1 < sz(x) ; k1 |= k1+1) 
+      for (int k=k2; k < sz(x[k1]); k |= k+1) x[k1][k] += a;
   }
   T sum(int k1, int k2 ,T s=0 ) { // return  x[0][0] to x[k1][k2] sum 
   
