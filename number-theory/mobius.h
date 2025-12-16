@@ -1,3 +1,17 @@
+/*
+Count x in [L, R]:
+gcd(x, m) = k   (k ≥ 1, k | m)
+1 ≤ L ≤ R
+Σ_{d | (m/k)} μ(d) ·
+( ⌊R/(k·d)⌋ − ⌊(L−1)/(k·d)⌋ )
+------------------------------------
+Count pairs (i, j) in ranges:
+gcd(i, j) = k   (k ≥ 1)
+1 ≤ l1 ≤ r1, 1 ≤ l2 ≤ r2
+Σ_{d=1}^{min(⌊r1/k⌋, ⌊r2/k⌋)} μ(d) ·
+( ⌊r1/(k·d)⌋ − ⌊(l1−1)/(k·d)⌋ ) ·
+( ⌊r2/(k·d)⌋ − ⌊(l2−1)/(k·d)⌋ )
+*/
 const int N = 5e5 + 9;
 int mob[N];
 void mobius() {
