@@ -1,7 +1,13 @@
 /**
  * Time: $O(n)$
  * Status:  stress-tested
- */
+*/
+/* Let n = p1^a1 * p2^a2 * ... * pk^ak
+NOD: τ(n) = Π (ai + 1)
+SOD:σ(n) = Π ( (pi^(ai+1) - 1) / (pi - 1) )
+Euler Totient Function:φ(n) = n * Π (1 - 1/pi)
+*/
+
 int pclc=0;
 vi least ,primes;
 void RunSieve(int n) {
