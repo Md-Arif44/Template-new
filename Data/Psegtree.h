@@ -1,3 +1,13 @@
+ /**
+ * Author: 
+ * Date:  
+ * License: 
+ * Source: 
+ * Description:  
+ * Time:  
+ * Status: Stress-tested
+ */
+
 struct node{
   int64_t sum ;
   node *lc; node *rc;
