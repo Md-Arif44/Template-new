@@ -1,9 +1,13 @@
 /**
+ * Author: Arman Ferdous
+ * Date:
+ * License:
+ * Source: Arman
  * Description: Hashing with point updates on string (0-indexed). \texttt{upd(i, x): s[i] += x}. Intervals are $[l,r]$.
- * update delta  = new c - s[pos ];
  * Time: $O(n \log n)$
+ * Status: Tested
  */
- 
+
 template<const ll M, const ll B> 
 struct Dynamic_Hashing {
   int n; V<ll> h, pw;
@@ -37,4 +41,3 @@ struct Double_Dynamic {
   } pll eval(int l, int r) 
     { return {h1.eval(l,r), h2.eval(l,r)}; }
 };
- 
