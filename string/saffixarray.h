@@ -1,10 +1,12 @@
-/*
- * Description: Builds suffix array for a string.
+/**
+ * Author:  
+ * License: 
+ * Description: Builds suffix array for a string ,
  * \texttt{sa[i]} is the starting index of the suffix which
- * is $i$'th in the sorted suffix array.
- * The returned vector is of size $n$ .
- * \texttt{lcp[i] = lcp(sa[i], sa[i+1])}, .
- * The input string must not contain any nul chars.
+ * is $i$'th in the sorted suffix array ,
+ * The returned vector is of size $n$ 
+ * \texttt{lcp[i] = lcp(sa[i], sa[i+1])}, 
+ * The input string must not contain any nul chars 
  * Time: O(n \log n)
 */
 vi suffix_array(int n, const string&s, int char_bound= 260) {
