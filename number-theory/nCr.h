@@ -1,7 +1,9 @@
 /**
-* Description: include mint.h
-* Status: Works
-*/
+ * Author: 
+ * Date: 
+ * License:  
+ * Source: 
+ */
 V<mint> fct(1, 1), infct(1, 1);
  mint C(int n, int k) {
   if (k < 0 || k > n) return 0;
