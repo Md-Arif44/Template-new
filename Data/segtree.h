@@ -4,7 +4,6 @@
  * License: 
  * Source:
  * Description:
- * Time: $\mathcal{O}(\log N)$
  * Status: Tested
  */
 template <class T, T (*op)(T, T), T (*e)()> 
