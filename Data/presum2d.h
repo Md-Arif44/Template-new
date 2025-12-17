@@ -1,3 +1,10 @@
+/**
+ * Author:  
+ * Date:  
+ * License: 
+ * Source:  
+ */
+
 V<vl>  PrefixSums2D(V<vl> &a) {
   // ...1 base
     int  n = sz(a) ,m = sz(a[0]) ;
