@@ -1,3 +1,12 @@
+/**
+ * Author: atcoder library
+ * Date:
+ * License: 
+ * Source:
+ * Description:
+ * Time: $\mathcal{O}(\log N)$
+ * Status: Tested
+ */
 template <class T, T (*op)(T, T), T (*e)()> 
 struct segtree {
   int n,size; V<T> d;
@@ -28,6 +37,3 @@ struct segtree {
       return op(sml, smr);
     }
 };
-
-ll op(ll x ,ll y){ return x+y; }
-ll e(){ return 0ll ; }
