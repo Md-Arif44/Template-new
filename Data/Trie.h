@@ -1,3 +1,13 @@
+ /**
+ * Author: 
+ * Date:  
+ * License: 
+ * Source: 
+ * Description:  
+ * Time:  
+ * Status: Stress-tested
+ */
+
 struct Trie{
    const int B=30;
    struct node{
