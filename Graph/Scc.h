@@ -1,8 +1,10 @@
 /**
- * Description: Scc    
- * usage : SCC( g,rg) g in garph and  reverse graph
- * return  was has scc node with same val (0 base)
-*/
+ * Author:  
+ * Date:  
+ * Source: 
+ * usage : SCC( g,rg) g in garph and  reverse graph ,return  was has scc node with same val (0 base)
+ */
+
 pair<vi,vi> Fun (const V<vi> &g ,const vi &order  ){
      vi topo ,vis(sz(g)),was(sz(g))  ;
      int attempt=0;
