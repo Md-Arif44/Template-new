@@ -1,5 +1,8 @@
 
 /**
+ * Author: 
+ * Date:  
+ * License: 
  * Description: Decomposes a tree into vertex disjoint heavy paths and light
  * edges such that the path from any leaf to the root contains at most log(n)
  * light edges. Code does additive modifications and max queries, but can
