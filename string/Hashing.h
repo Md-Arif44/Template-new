@@ -1,7 +1,13 @@
-
 /**
+ * Author: Arman Ferdous
+ * Date:
+ * License:
+ * Source:
  * Description: Static hashing for 0-indexed string. Intervals are $[l, r]$.
+ * Time: 
+ * Status: Tested
  */
+
 template<const ll M, const ll B> 
 struct Hashing {
   int n; V<ll> h, pw;
