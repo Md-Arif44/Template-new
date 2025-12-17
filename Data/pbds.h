@@ -1,4 +1,10 @@
-/**
+ /**
+ * Author: 
+ * Date:  
+ * License: 
+ * Source: 
+ */
+/*
  *  name.order_of_key(k)  -> Count of elements < k
  *  *name.find_by_order(k)-> k-th smallest element (0-indexed)
 */
