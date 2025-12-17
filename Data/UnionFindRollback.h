@@ -9,6 +9,8 @@
  * Time: $O(\log(N))$
  * Status: tested as part of DirectedMST.h
  */
+#pragma once
+
 struct RollbackUF {
 	vi e; vector<pii> st;
 	RollbackUF(int n) : e(n, -1) {}
