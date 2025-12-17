@@ -1,7 +1,11 @@
+
 /**
- * Time: $O(n)$
- * Status:  stress-tested
-*/
+ * Author: 
+ * Date: 
+ * License:  
+ * Source: 
+ */
+
 /* Let n = p1^a1 * p2^a2 * ... * pk^ak
 NOD: τ(n) = Π (ai + 1)
 SOD:σ(n) = Π ( (pi^(ai+1) - 1) / (pi - 1) )
