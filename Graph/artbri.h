@@ -1,7 +1,10 @@
 /**
- * Description: art and bri    
- * usage :  bri has bridges  (u,v)  if u to v is a bridge
- * and art [v] =1 if art is a art point (0 base) 
+ * Author:  
+ * Date:  
+ * Source: 
+ * Description: art and bri ,    
+ *  bri has bridges  (u,v)  if u to v is a bridge
+ *  and art [v] =1 if art is a art point (0 base) 
 */
 int n , timer;
 V<vi> adj; 
