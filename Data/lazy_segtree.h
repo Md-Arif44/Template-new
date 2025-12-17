@@ -4,7 +4,7 @@
  * License: 
  * Source:
  * Description:
- * Time: $\mathcal{O}(\log N)$
+ * Time: 
  * Status: Tested
  */
 template <class S,
