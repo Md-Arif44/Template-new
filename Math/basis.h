@@ -1,4 +1,9 @@
-// basis
+/**
+ * Author:  
+ * Date:  
+ * Source: 
+ * Description:      
+ */
 vector<int > bit(32) ;
 int Sz=0 ;
 void Insert(int x){
