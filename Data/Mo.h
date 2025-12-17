@@ -1,5 +1,14 @@
-// Mo  quary 0 base  time: O((N + Q)√N) , block size  is sqrt(n) , 
-  int n =0 , q=0; 
+ /**
+ * Author: 
+ * Date:  
+ * License: 
+ * Source: 
+ * Description: Mo  quary 0 base  time: O((N + Q)√N) , block size  is sqrt(n) 
+ * Time:  
+ * Status: Stress-tested
+ */
+
+int n =0 , q=0; 
   const int Block = 335 ; 
    struct  MO{
        int l,r , id ;
@@ -45,4 +54,4 @@
        out[v]=sz(tour);
        tour.pb(v);
     }; dfs(dfs,0,-1);
-  //-----
+  
