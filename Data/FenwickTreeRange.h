@@ -1,7 +1,13 @@
 /**
+ * Author: Online
+ * Date: 2025-06-17
+ * License: CC0
+ * Source: Online
  * Description: Range add Range sum with FT.
  * Time: Both operations are $O(\log N)$.
+ * Status: solved SPOJ HORRIBLE
  */
+
 FT f1(n), f2(n);
 // a[l...r] += v; 0 <= l <= r < n
 auto upd = [&](int l, int r, ll v) {
