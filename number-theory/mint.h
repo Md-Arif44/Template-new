@@ -1,7 +1,9 @@
 /**
-* Description: Operators for modular arithmetic. You need to set {\tt mod} to
-* Status: Works
-*/
+ * Author: 
+ * Date: 
+ * License:  
+ * Source: 
+ */
 const int mod=1e9+7;
  struct mint{
   ll x;
