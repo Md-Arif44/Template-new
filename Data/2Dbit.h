@@ -1,3 +1,12 @@
+/**
+ * Author: 
+ * Date:
+ * License: 
+ * Source:
+ * Description:
+ * Time: 
+ * Status:  
+ */
 template <class T=int >
 struct FT2D {
   V<V<T>> x;
