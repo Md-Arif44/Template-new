@@ -1,3 +1,12 @@
+/**
+ * Author: atcoder library
+ * Date:
+ * License: 
+ * Source:
+ * Description:
+ * Time: $\mathcal{O}(\log N)$
+ * Status: Tested
+ */
 template <class S,
           S (*op)(S, S),
           S (*e)(),
